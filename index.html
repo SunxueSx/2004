@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <title>ToDoList — 千峰教育版权所有</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        
+        <footer>
+            <p>
+                Copyright &copy; 2020 千峰教育 版权所有
+                <a href="javascript:;">京ICP备15058198号</a>
+            </p>
+            <p>
+                您当前的ip地址是：<strong id="ipv4">106.38.62.154</strong
+                >，地理位置：<strong id="addr">北京市 电信互联网数据交换中心</strong>
+            </p>
+        </footer>
+        <script type="module">
+            import TodoList from './assets/js/index.js';
+    
+            let todo = new TodoList();
+            todo.appendTo("body");
+        </script>
+    </body>
+</html>
